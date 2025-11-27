@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Relevance at VIT</title>
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f7f6;
+            padding-top: 40px;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+            color: #fff;
+            background-color: #007bff;
+        }
+        .nav-pills .nav-link {
+            color: #007bff;
+            border: 1px solid #007bff;
+            margin: 0 5px;
+            font-weight: 500;
+        }
+        .tab-content {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+        }
+        h1, h3 {
+            color: #343a40;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="text-center mb-4">
+        <h1>Project Relevance in VIT Curriculum</h1>
+        <p class="lead">Understanding the importance of different project types for skill development.</p>
+    </div>
+
+    <!-- Toggleable Pills Navigation -->
+    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-sdp-tab" data-toggle="pill" href="#pills-sdp" role="tab" aria-controls="pills-sdp" aria-selected="true">SDP</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-edi-tab" data-toggle="pill" href="#pills-edi" role="tab" aria-controls="pills-edi" aria-selected="false">EDI</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-dt-tab" data-toggle="pill" href="#pills-dt" role="tab" aria-controls="pills-dt" aria-selected="false">DT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-projects-tab" data-toggle="pill" href="#pills-projects" role="tab" aria-controls="pills-projects" aria-selected="false">Course Projects</a>
+        </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="pills-tabContent">
+        <!-- SDP Content -->
+        <div class="tab-pane fade show active" id="pills-sdp" role="tabpanel" aria-labelledby="pills-sdp-tab">
+            <h3>Software Development Project (SDP)</h3>
+            <p>The SDP is crucial for applying theoretical knowledge to build a complete, functional software solution. As a MERN stack developer, this is your playground.</p>
+            <ul>
+                <li><strong>Team Collaboration:</strong> Simulates a real-world development environment, teaching you version control (like Git), task management, and communication skills within a team.</li>
+                <li><strong>Full-Stack Experience:</strong> It requires you to work on both the frontend and backend, connect to a database, and deploy the application, providing a holistic understanding of the entire development lifecycle.</li>
+                <li><strong>Problem-Solving:</strong> You learn to tackle a real-world problem statement, design a system architecture, and implement features from scratch, which is a core skill for any software engineer.</li>
+            </ul>
+        </div>
+        <!-- EDI Content -->
+        <div class="tab-pane fade" id="pills-edi" role="tabpanel" aria-labelledby="pills-edi-tab">
+            <h3>Engineering Design and Innovation (EDI)</h3>
+            <p>EDI projects focus on the creative and inventive aspects of engineering, pushing you to think outside the box and build tangible prototypes.</p>
+            <ul>
+                <li><strong>Innovation and Creativity:</strong> Challenges you to come up with novel solutions to existing problems, fostering an entrepreneurial mindset.</li>
+                <li><strong>Prototyping:</strong> Moves beyond just code to hardware or integrated systems. You learn to build and test physical or electro-mechanical prototypes, bridging the gap between software and the real world.</li>
+                <li><strong>Interdisciplinary Skills:</strong> Often involves collaboration with students from other engineering branches, providing exposure to different domains and work styles.</li>
+            </ul>
+        </div>
+        <!-- DT Content -->
+        <div class="tab-pane fade" id="pills-dt" role="tabpanel" aria-labelledby="pills-dt-tab">
+            <h3>Design Thinking (DT)</h3>
+            <p>Design Thinking is a human-centric approach to innovation. It's less about the final code and more about understanding the user for whom you are building.</p>
+            <ul>
+                <li><strong>User Empathy:</strong> Teaches you to put the user first by conducting research, creating user personas, and understanding pain points. This is invaluable for creating products that people love to use.</li>
+                <li><strong>Iterative Process:</strong> Emphasizes a cycle of ideation, prototyping, and testing. It helps in failing fast and learning quickly, reducing the risk of building the wrong product.</li>
+                <li><strong>Structured Problem-Solving:</strong> Provides a framework (Empathize, Define, Ideate, Prototype, Test) to tackle complex, ill-defined problems systematically.</li>
+            </ul>
+        </div>
+        <!-- Course Projects Content -->
+        <div class="tab-pane fade" id="pills-projects" role="tabpanel" aria-labelledby="pills-projects-tab">
+            <h3>Course Projects</h3>
+            <p>Course-specific projects are fundamental for cementing the theoretical concepts learned in lectures and labs.</p>
+            <ul>
+                <li><strong>Concept Reinforcement:</strong> Applying concepts from subjects like Data Structures, DBMS, or Operating Systems to a small-scale project helps solidify your understanding far better than theory alone.</li>
+                <li><strong>Practical Application:</strong> Provides hands-on experience with specific algorithms, technologies, or patterns discussed in a course (e.g., implementing a sorting visualizer for an algorithms course).</li>
+                <li><strong>Building Blocks:</strong> These smaller projects serve as building blocks, giving you the confidence and foundational skills needed to tackle larger projects like SDP.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery and Bootstrap JS CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
